@@ -37,7 +37,7 @@ int main(int argc, char** argv)
 	unsigned short int port = atoi(argv[2]);
 	unsigned short int nbThread = 1;
 
-    if (argc < 3)
+    if (argc >= 3)
     {
         nbThread = atoi(argv[3]);
     }
